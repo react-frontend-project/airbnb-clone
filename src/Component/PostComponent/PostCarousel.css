@@ -1,0 +1,102 @@
+/* 
+.carousel{
+    position: absolute;
+   
+  width: 50%;
+   margin: 15px;
+   margin-top: -40%;
+   left: 5%;
+   
+
+}
+
+.carousel-item img {
+    height:300px;
+    width: 100% !important;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+  
+  .carousel-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+  }
+   */
+  /* .carousel-item img {
+    width: 50%;
+    height: 320px; 
+     object-fit: cover;
+    border-radius: 10px;
+  } */
+  /* .carousel{
+    position: absolute;
+    margin-top: -122%;
+    left: 5%;
+    width: 100% !important;
+   
+  
+  }
+  .carousel-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 320px;
+    
+    
+   
+  }
+  
+  .carousel-item img {
+    width: 85% !important;
+    height: 300px; 
+     object-fit: cover;
+    border-radius: 10px;
+  } */
+  .carousel{
+    position: absolute;
+    top: -200%;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 95% !important;
+    left: 15%;
+    
+    
+  
+  }
+  .carousel-block{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+  
+   
+  }
+  
+  .carousel-item img {
+    width: 95% !important;
+    height: 300px; 
+     object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    position: absolute;
+    filter: invert(100%); 
+    margin-top: 40%;
+
+    
+    
+  }
+  .carousel-control-next-icon{
+    
+    left: 32%;
+   
+  }
+  .carousel-control-prev-icon{
+     right: 49%;
+  } 

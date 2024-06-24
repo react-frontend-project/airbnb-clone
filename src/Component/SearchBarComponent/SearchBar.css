@@ -1,0 +1,157 @@
+
+.outer-box {
+    display: flex;
+    gap: 3px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 10px 1px 12px;
+    border-radius: 50px; 
+    align-items: center;
+    margin-left: 42vh;
+    margin-bottom: 50%;
+    width: 58%;
+    margin-top: 10%;
+  }
+  
+  .inner-button {
+    border: none;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 2px 2px;
+    position: relative; /* Ensure dropdowns are positioned relative to this container */
+  }
+  
+  .input-field {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-left: 28%;
+    padding: 2px;
+    background-color: transparent;
+  }
+  
+  .separator {
+    margin: 0 5px;
+  }
+  
+  .search-button {
+    background-color: red;
+    color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+    cursor: pointer;
+    padding: 24px 25px;
+    border-radius: 30px;
+    border: none;
+  }
+  .search-icon{
+    position: absolute;
+    margin-left: 54.9%;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .who-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 20%;
+    padding: 35px;
+    border-radius: 40px;
+    z-index: 1000;
+    top: 100%;
+    left: 3px; 
+  }
+  
+  .who-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: -5%;
+   
+  }
+  
+  .who-row span {
+    margin: 25px;
+    padding-right: 24px;
+    
+  }
+  .who-row label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-right: 10%;
+    left: -16px;
+    
+    
+  }
+  
+  .who-row button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 39px;
+    border: none;
+    background-color: #ddd;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 20px;
+    left: -10px;
+    
+    
+  }
+  
+  
+  .who-row button:hover {
+    background-color: #ccc;
+  }
+  
+  .date-input input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  .date-picker-inline {
+    position: absolute;
+    top: 40px; /* Position directly below the input */
+    left: 0; /* Align to the left edge of the input */
+    z-index: 1000;
+  }
+  
+  @media (max-width: 767px) {
+    .outer-box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .inner-button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .separator {
+      display: none;
+    }
+  
+    .search-icon {
+      align-self: center;
+      margin-top: 10px;
+    }
+  }

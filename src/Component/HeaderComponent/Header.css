@@ -1,0 +1,92 @@
+.header-container{
+    margin: 0;
+}
+.header-image img{
+    position: fixed;
+    width: 7%;
+    left: 6%;
+    margin-top: 1%;
+    padding: 5px;
+    
+}
+.header-Title {
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    left: 41%;
+    margin: 10px;
+    padding: 30px;
+    margin-top: 3%;
+    
+
+}
+.topic-1 {
+    font-weight: bold;
+    
+}
+.topic-2 {
+    font-weight: lighter;
+    color: rgb(119, 112, 112);
+}
+.header-nav{
+    /* position: absolute; */
+    /* left: 73%; */
+    display: flex;
+    
+    margin: 5px;
+    
+}
+.header-button-1{
+    position: absolute;
+    padding: 40px;
+    border: 0;
+    left: 70%;
+    font-size: 15px;
+    background-color: white;
+}
+.header-button-2{
+    position: absolute;
+    border: 0;
+    background-image: url('src/Component/HeaderComponent/image/globe-1..jpg');
+    background-size: cover;
+    left: 82%;
+    padding: 11px;
+    top: 5.9%;
+    
+    
+}
+.header-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 85% ;
+    top: 4%;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 90px;
+    padding: 10px 14px;
+    gap: 15px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 18px;
+    
+       
+}
+.line .header-line{
+    
+    width: 18px;
+    height: 1px;
+    background-color: black;
+}
+
+
+ .header-profile{
+    
+    border-radius: 50%;
+    padding: 5px;
+    
+} 
